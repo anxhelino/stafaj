@@ -88,7 +88,7 @@ body,
   display: block;
   margin: auto;
   mix-blend-mode: multiply;
-  object-fit: cover;
+  object-fit: fill;
 }
 
 .productCart {
