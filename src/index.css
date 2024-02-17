@@ -8,7 +8,7 @@ html,
 body,
 #root {
   max-width: 100lvw;
-  height: 100lvh;
+  max-height: 100lvh;
   overflow-x: hidden;
   font-family: 'Gill Sans', sans-serif;
 }
@@ -84,11 +84,14 @@ body,
 }
 
 .sliderContainer img {
+  height: 100%;
   max-height: 40lvh;
+  max-width: 100lvw;
   display: block;
   margin: auto;
   mix-blend-mode: multiply;
-  object-fit: fill;
+  object-fit: cover;
+  object-position: left;
 }
 
 .productCart {
