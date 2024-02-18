@@ -7,8 +7,8 @@
 html,
 body,
 #root {
-  max-width: 100lvw;
-  max-height: 100lvh;
+  max-width: 100dvw;
+  max-height: 100dvh;
   overflow-x: hidden;
   font-family: 'Gill Sans', sans-serif;
 }
